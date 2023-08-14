@@ -5,6 +5,7 @@ app.use(express.json());
 let countValue = 0;
 app.get("/", (req, res) => {
   countValue++;
-  res.send(`<h1>Count:${countValue}</h1>`);
+  res.send(`<h1>Author:Siddhant Singh ✨</h1>
+  <h1>Count:${countValue}</h1>`);
 });
 app.listen(5000);
